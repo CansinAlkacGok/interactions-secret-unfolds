@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    padding: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    position: relative;
+}
+
+.main-container div{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transition: 1s;
+}
+
+.steelblue{
+    background-color: steelblue;
+    bottom: 180px;
+    left: 535px;
+    transition: transform 1s;
+}
+
+.dimgray{
+    background-color: dimgray;
+    bottom: 180px;
+    left: 635px;
+}
+
+.rosybrown{
+    background-color: rosybrown;
+    bottom: 80px;
+    left: 635px;
+}
+
+.yellow{
+    background-color: yellow;
+    bottom: 80px;
+    left: 535px;
+}
+
+.main-container:hover .steelblue, .main-container:hover .yellow{
+    transform: translateX(-100px) rotate(90deg);
+}
+
+.main-container:hover .dimgray, .main-container:hover .rosybrown{
+    transform: translateX(100px) rotate(-90deg);
+}
