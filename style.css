@@ -4,47 +4,48 @@
     box-sizing: border-box;
 }
 
+.main-container{
+    position: relative;
+}
+
 h1{
     padding: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.main-container{
-    position: relative;
+    font-size: 3rem;
 }
 
 .main-container div{
-    width: 100px;
-    height: 100px;
+    width: 8rem;
+    height: 8rem;
     position: absolute;
     transition: 1s;
 }
 
 .steelblue{
     background-color: steelblue;
-    bottom: 180px;
-    left: 855px;
+    bottom: 11rem;
+    left: 32rem;
     transition: transform 1s;
 }
 
 .dimgray{
     background-color: dimgray;
-    bottom: 180px;
-    left: 955px;
+    bottom: 11rem;
+    left: 40rem;
 }
 
 .rosybrown{
     background-color: rosybrown;
-    bottom: 80px;
-    left: 955px;
+    bottom: 3rem;
+    left: 40rem;
 }
 
 .yellow{
     background-color: yellow;
-    bottom: 80px;
-    left: 855px;
+    bottom: 3rem;
+    left: 32rem;
 }
 
 .main-container:hover .steelblue, .main-container:hover .yellow{
