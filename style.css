@@ -26,26 +26,26 @@ h1{
 .steelblue{
     background-color: steelblue;
     bottom: 11rem;
-    left: 32rem;
+    left: 50rem;
     transition: transform 1s;
 }
 
 .dimgray{
     background-color: dimgray;
     bottom: 11rem;
-    left: 40rem;
+    left: 58rem;
 }
 
 .rosybrown{
     background-color: rosybrown;
     bottom: 3rem;
-    left: 40rem;
+    left: 58rem;
 }
 
 .yellow{
     background-color: yellow;
     bottom: 3rem;
-    left: 32rem;
+    left: 50rem;
 }
 
 .main-container:hover .steelblue, .main-container:hover .yellow{
